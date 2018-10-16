@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "concurrently": "3.5.1",
-    "react-scripts": "1.1.1"
+    "react-scripts": "^2.0.5"
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
@@ -12,15 +12,15 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-html": "^4.0.2",
     "eslint-plugin-prettier": "^2.6.0",
-    "firebase": "^4.10.0",
+    "firebase": "^5.5.4",
     "prettier": "^1.11.1",
     "prop-types": "^15.6.0",
-    "re-base": "3.2.2",
+    "re-base": "^4.0.0",
     "react": "^16.3.0-alpha.1",
     "react-dom": "^16.3.0-alpha.1",
     "react-router-dom": "^4.2.2",
     "react-transition-group": "^2.2.1",
-    "serve": "^6.5.0",
+    "serve": "^10.0.2",
     "stylus": "0.54.5"
   },
   "scripts": {
@@ -30,5 +30,11 @@
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
